@@ -2,6 +2,12 @@
 # Reinforcement Learning
 ## Project: Train a Smartcab How to Drive
 
+### Project Overview
+
+As a part of the Reinforcement Learning module, the final project required the application of reinforcement learning to build a simulated vehicle navigation agent. A smart cab is placed randomly in a grid world of 8 columns by 6 rows, navigating traffic against 100 dummy agents in order to reach the destination. 
+
+This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.
+
 ### Install
 
 This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wiki/GettingStarted
