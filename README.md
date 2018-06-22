@@ -8,10 +8,23 @@ As a part of the Reinforcement Learning module, the final project required the a
 
 This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.
 
+
+
 ### Install
 
-This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wiki/GettingStarted
-) library installed
+This project uses the following software and Python libraries:
+
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [PyGame](http://pygame.org/)
+
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. `pygame` can then be installed using one of the following commands:
+
+Mac:  `conda install -c https://conda.anaconda.org/quasiben pygame`  
+Windows: `conda install -c https://conda.anaconda.org/tlatorre pygame`  
+Linux:  `conda install -c https://conda.anaconda.org/prkrekel pygame`  
 
 ### Code
 
